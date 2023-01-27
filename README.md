@@ -1,8 +1,8 @@
 # Automate_location_identifiers
 
 ## About
-Script to find the latitude, longitude, geohash and pluscode values of a location. 
-Uses the geocoder, openlocationcode, pygeohash python modules to find these values.
+- Script to find the latitude, longitude, geohash and pluscode values of a location. 
+- Used the script to find location identifiers of post offices around india.
 
 ## Install Dependencies
 ```
