@@ -19,7 +19,6 @@ for index, row in df.iterrows():
 
     g = geocoder.arcgis(f" {i} {j} {k} ")
 
-# == ('NONE','NONE')
     if not g.latlng :
         df.at[index, 'latitude'] = "NONE"
         df.at[index, 'longitude'] = "NONE"
